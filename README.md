@@ -19,3 +19,17 @@ Once installed, you can open it through your system's application manager or fro
 ```bash
 flatpak run com.github.AmatCoder.mednaffe
 ```
+
+## Open included Mednafen emulator directly
+
+You can open the Mednafen emulator directly from the terminal with this command:
+
+```bash
+flatpak run --command=mednafen com.github.AmatCoder.mednaffe [FILE]
+```
+
+Use this command to get the valid option parameters and their usage:
+
+```bash
+flatpak run --command=mednafen com.github.AmatCoder.mednaffe -help
+```
