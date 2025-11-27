@@ -86,4 +86,9 @@
       </description>
     </release>
   </releases>
+  <keywords>
+    <keyword>mednaffe emulator</keyword>
+    <keyword>retro game console</keyword>
+    <keyword>multi system emulator</keyword>
+  </keywords>
 </component>
