@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>com.github.AmatCoder.mednaffe</id>
-  <launchable type="desktop-id">com.github.AmatCoder.mednaffe.desktop</launchable>
-  <provides>
-    <binary>mednaffe</binary>
-    <binary>mednafen</binary>
-    <id>mednaffe.desktop</id>
-  </provides>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+ and GPL-2.0+</project_license>
   <name>Mednaffe</name>
   <summary>A front-end (GUI) for mednafen emulator (included)</summary>
   <description>
@@ -31,6 +27,19 @@
       <li>Sony PlayStation</li>
     </ul>
   </description>
+  <developer id="io.github.amatcoder">
+    <name>AmatCoder</name>
+  </developer>
+  <url type="homepage">https://github.com/AmatCoder/mednaffe</url>
+  <url type="bugtracker">https://github.com/AmatCoder/mednaffe/issues</url>
+  <url type="vcs-browser">https://github.com/AmatCoder/mednaffe</url>
+  <launchable type="desktop-id">com.github.AmatCoder.mednaffe.desktop</launchable>
+  <provides>
+    <binary>mednaffe</binary>
+    <binary>mednafen</binary>
+    <id>mednaffe.desktop</id>
+  </provides>
+  <content_rating type="oars-1.1"/>
   <categories>
     <category>Game</category>
     <category>Emulator</category>
@@ -43,11 +52,6 @@
       <image>https://raw.githubusercontent.com/AmatCoder/mednaffe/wiki/mednaffe-0.9.0-linux2.png</image>
     </screenshot>
   </screenshots>
-  <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0+ and GPL-2.0+</project_license>
-  <developer_name>AmatCoder</developer_name>
-  <url type="homepage">https://github.com/AmatCoder/mednaffe</url>
-  <content_rating type="oars-1.1"/>
   <releases>
     <release version="0.9.3-1.32.1" date="2024-04-14">
       <description>
